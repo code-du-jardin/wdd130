@@ -11,7 +11,7 @@
 }
 
 nav {
-    background-color: rgb(123, 161, 231);
+    background-color: var(--heading-background-color);
     padding: 15px;
 }
 
