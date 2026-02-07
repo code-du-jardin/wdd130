@@ -177,15 +177,21 @@ h2 {
     margin-top: 2px;
 }
 
-figure {
+.adventure {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
     background-color: var(--accent2-color);
 
 }
 
-figure img {
+.adventure h2 {
+    width: 100%;
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.adventure img {
     width: 200px;
     height: auto;
     margin: 5px 0;
@@ -193,8 +199,8 @@ figure img {
     align-self: center;
 }
 
-figcaption {
-    grid-row: 2/3;
+.adventure figure {
+    grid-row: 2/4;
     text-align: center;
 }
 
