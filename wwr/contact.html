@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting - Contact Us</title>
+    <meta name="description"
+        content="This is the Sunburst Rafting Co. Contact Us page which will include contact information and a contact form which the user can submit to ask questions about the company and its services.">
+    <meta name="author" content="Abram Jardin">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero1">
+            <h1>Sunburst Rafting Co.</h1>
+            <p>1287 Kane Creek Blvd</p>
+            <p>Moab, UT 84532</p>
+            <p>+1 435 999 9999</p>
+            <p>contact@sunburstrafting.com</p>
+        </div>
+
+        <div class="info-section">
+            <div class="contact map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3709.644359036435!2d-109.56423690734368!3d38.57002193016614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1771096099830!5m2!1sen!2sph"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form class="contact">
+                <div class="contact form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+
+                <div class="contact form-item">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="example@email.com" required>
+                </div>
+
+                <fieldset class="radio-group contact">
+                    <legend class="contact">Message Purpose</legend>
+
+                    <div class="contact form-item">
+                        <input type="radio" id="general" name="purpose" required>
+                        <label for="general">General Inquiry</label>
+                    </div>
+
+                    <div class="contact form-item">
+                        <input type="radio" id="reservation" name="purpose" required>
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+
+                    <div class="contact form-item">
+                        <input type="radio" id="suggestion" name="purpose" required>
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+
+                </fieldset>
+
+                <div class="contact form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Type here"></textarea>
+                </div>
+
+                <div class="contact form-item">
+                    <input type="checkbox" id="subrscription" name="subrscription">
+                    <label for="subrscription">Please Subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+
+            </form>
+
+        </div>
+
+        <section class="profile">
+            <h2>We Are Here to Serve You</h2>
+            <figure id="fig1">
+                <img src="images/tripguide.jpg" alt="profile1">
+                <figcaption>Trip Guide</figcaption>
+            </figure>
+            <figure id="fig2">
+                <img src="images/operations-manager.jpg" alt="profile2">
+                <figcaption>Operations Manager</figcaption>
+            </figure>
+            <figure id="fig3">
+                <img src="images/customer-service-coordinator.jpg" alt="profile3">
+                <figcaption>Customer Service Coordinator</figcaption>
+            </figure>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>©️2026 🌊 Sunburst Rafting Co. 🌊 Abram Jardin</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
